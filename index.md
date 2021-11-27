@@ -6,7 +6,7 @@ nav_order: 1
 **UPDATE PHOTO**
 <img src="images/WORKSHOP-LOGO-HERE.png" style="float:right;width:180px;" alt="image description">
 
-# WORKSHOP TITLE HERE (Use Regular Case Like this)
+# Introduction to LaTeX
 
 - Pre-workshop activities: 10 min 
 - Introductory presentation: 10 min
