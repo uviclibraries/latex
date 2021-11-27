@@ -34,7 +34,7 @@ If you and your group have any questions or get stuck as you work through this i
     \maketitle
     ```
     
-    You can also customize the data by typing \date{Dec 2021}
+    You can also customize the data by typing `\date{Dec 2021}`
     
 5.  Add section and subsections
     Replace “This is my first document” with the following:
@@ -66,7 +66,7 @@ If you and your group have any questions or get stuck as you work through this i
     ```
 
 7.  Create a table of contents
-    Insert the following directly after \maketitle
+    Insert the following directly after `\maketitle`
     
     ```
     \pagenumbering{roman}
