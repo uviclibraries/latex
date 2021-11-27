@@ -5,8 +5,12 @@ nav_order: 10
 ---
 # Additional Resources & Acknowledgements
 
-## WORKSHOP NAME HERE Resources
+## LaTeX Resources
 
+- [Overleaf help documentation](https://www.overleaf.com/learn){:target="_blank"}
+- [The Not So Short Introduction to LaTeX](https://tobi.oetiker.ch/lshort/lshort.pdf){:target="_blank"}
+- [Beginner to LaTeX](https://goo.gl/MFp45A){:target="_blank"}
+- and good ol' fashioned [Google](https://www.google.ca/){:target="_blank"}
 
 ## Acknowledgements
 
