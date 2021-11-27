@@ -1,4 +1,4 @@
-# WORKSHOP Name goes here...
+# Introduction to LaTeX
 ### UVic Libraries Digital Scholarship Commmons
 
 Link to workshop: https://nathanieljay.github.io/latex/
