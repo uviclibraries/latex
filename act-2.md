@@ -3,4 +3,4 @@
 
 # title
 
-# button Typing Math Equations act-3.html
+[NEXT STEP: Typing Math Equations](act-3.html){: .btn .btn-blue }
