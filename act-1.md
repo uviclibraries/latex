@@ -7,4 +7,4 @@ parent: Workshop Activities
 
 # Creating Your First Document
 
-# button Inserting Tables and Figures act-2.html
+[NEXT STEP: Inserting Tables and Figures](act-2.html){: .btn .btn-blue }
