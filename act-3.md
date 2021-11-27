@@ -3,4 +3,4 @@
 
 # title
 
-# button Solutions act-4.html
+[NEXT STEP: Solutions](act-4.html){: .btn .btn-blue }
