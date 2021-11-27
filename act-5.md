@@ -3,4 +3,4 @@
 
 # title
 
-# button Earn a Workshop Badge informal-credentials.html
+[NEXT STEP: Earn a Workshop Badge](informal-credentials.html){: .btn .btn-blue }
