@@ -10,8 +10,8 @@ If you and your group have any questions, or get stuck as you work through this 
 
 Beamer is a LaTeX class for making presentation slides. Let’s create a new project for this activity in Overleaf.
 
-1.  Create a new project and choose the first one (Blank paper)
-2.  Replace the original text with the following to set up your title page:
+1.  **Create a new project and choose the first one (Blank paper)**
+2.  **Replace the original text with the following to set up your title page:**
 
     ```
     \documentclass[pdf]{beamer}
@@ -28,7 +28,7 @@ Beamer is a LaTeX class for making presentation slides. Let’s create a new pro
     \date{\today}  % it can be customized
     ```
 
-3.  Create your overview page and start your work:
+3.  **Create your overview page and start your work:**
 
     ```
     \begin{document}
@@ -42,10 +42,10 @@ Beamer is a LaTeX class for making presentation slides. Let’s create a new pro
     \end{document}
     ```
 
-4.  Change the theme for slides:
+4.  **Change the theme for slides:**<br>
     Find the code `\mode<presentation>{}` (In the very beginning).  There are other themes like `\usetheme{CambridgeUS}`
 
-5.  Create the main body of the slides:
+5.  **Create the main body of the slides:**<br>
     Type the following directly before the `\end{document}`
 
     ```
@@ -73,7 +73,7 @@ Beamer is a LaTeX class for making presentation slides. Let’s create a new pro
 
     Now go back to your content pages, it has automatically updated as below.
 
-6.  Discover your own preferred template!
+6.  **Discover your own preferred template!**<br>
     [https://goo.gl/VUn4Xq](https://goo.gl/VUn4Xq){:target="_blank"}
 
 [NEXT STEP: Earn a Workshop Badge](informal-credentials.html){: .btn .btn-blue }
