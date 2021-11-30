@@ -63,7 +63,40 @@ f'(a)=\lim_{x \to a} \frac{f(x) - f(a)}{x - a}
 \[(x+y)^n=\sum_{k=0}^n\binom{n}{k}x^{n-k}y^k\]
 \[
 \begin{vmatrix}
-asdfasdfasdf
+a+b+c&
+uv\\
+a+b&c+d
+\end{vmatrix}
+=7
+\]
+
+Align two or more formulas:
+\begin{align}
+1 &= \cos^{2} x + \sin^{2} x                    \label{E:eqn1}\\
+\prod^n_{j=1}
+\hat x_{j} &=\tan^{-1}(z-2)                     \label{E:eqn2}\\
+y_{ij}&=\mu+\tau_i+\beta_j+\epsilon_{ij}        \label{E:anova}
+\end{align}
+
+(Refer equations) Equation~\ref{E:anova} is the model for ANOVA.
+
+Cases:
+\[
+H[n]=
+\begin{cases}
+0,        &\text{if $n < 0$,}\\
+\frac {1}{2},    &\text{if $n=0$,}\\
+0,        &\text{if $n=0$,}
+\end{cases}
+\]
+
+Type the following chemical equations. Firstly, you need to import a package called ``mhchem''. Type ``$\backslash$usepackage[version=3]\{mhchem\}'' in preamble.
+\paragraph{Isotopes} \ce{^{227}_{90}Th+}, \ce{NO3-}, \ce{1/2H2O}
+
+\paragraph{easy} \ce{SO4^2- + Ba^2+ -> BaSO4 v}, \ce{CO2 + C ->[\alpha][\beta] 2CO}
+
+\paragraph{hard}\ce{Zn^2+ <=>[\ce{+ 2OH-}][\ce{+ 2H+}] $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$ <=>C[+2OH-][{+ 2H+}] $\underset{\text{Hydroxozikat}}
+{\cf{[Zn(OH)4]^2-}}$}
 ```
 
 [NEXT STEP: Presentations With Beamer](act-5.html){: .btn .btn-blue }
