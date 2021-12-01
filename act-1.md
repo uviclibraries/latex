@@ -5,18 +5,16 @@ nav_order: 2
 parent: Workshop Activities
 ---
 
-<img src="images/logo.png" alt="logo" style="float:right;width:180px;">
+<img src="images/act-1/new-project.png" alt="new project" style="float:right;width:240px;">
 
 # Creating Your First Document
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
-<img src="images/act-1/new-project.png" alt="new project" style="float:right;width:240px;">
-
 1.  **Go to [https://www.overleaf.com/](https://www.overleaf.com/){:target="_blank"} and log into your account.**
 2.  **Create a new project and choose the first one (Blank project)**
 
-<img src="images/act-1/first-document.png" alt="first document" style="float:right;width:240px;">
+    <img src="images/act-1/first-document.png" alt="first document" style="float:right;width:240px;">
 
 3.  **Replace the original text with the following:**
 
