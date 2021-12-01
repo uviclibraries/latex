@@ -38,7 +38,7 @@ If you and your group have any questions, or get stuck as you work through this 
     
     <img src="images/act-2/refer-table.png" alt="refer table" style="float:right;width:240px;">
     
-    First type: `\usepackage{booktabs}` after `\usepackage{graphicx}` after the \documentclass[a4paper,12pt]{article} and above the \begin{document}. Then type the following codes below the \begin{document}:
+    First type: `\usepackage{booktabs}` after `\usepackage{graphicx}` after the `\documentclass[a4paper,12pt]{article}` and above the `\begin{document}`. Then type the following codes below the `\begin{document}`:
 
     <img src="images/act-2/3line-table.png" alt="three line table" style="float:right;width:360px;">
 
