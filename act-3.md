@@ -10,8 +10,8 @@ If you and your group have any questions, or get stuck as you work through this 
 
 Try to produce the following equations in LaTeX. Use [this](https://www.overleaf.com/learn/latex/Mathematical_expressions){:target="_blank"} as a guide. Check your solutions in Activity #4.
 
-<img>
+<img src="images/act-3/equ-1.png" alt="equations 1" style="width:720px;">
 
-<img>
+<img src="images/act-3/equ-2.png" alt="equation 2" style="width:720px;">
 
 [NEXT STEP: Solutions](act-4.html){: .btn .btn-blue }
