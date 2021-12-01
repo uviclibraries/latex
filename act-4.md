@@ -36,7 +36,7 @@ To get a matrix,
 [\begin{matrix}
 1 & 0\\
 0 & 1
-\end{matrix}
+\end{matrix}]
 \]
 
 We can find that the plain [ ] symbols do not scale as the matrix grows. To fix this, we use the following code:
