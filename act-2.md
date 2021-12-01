@@ -9,9 +9,17 @@ parent: Workshop Activities
 
 If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
+<img scr="images/act-2/solution1.png" alt="table solution" style="float:right;width:240;">
+
 1.  **Using Chapter 4 (pg. 17-18) [https://goo.gl/MFp45A](https://goo.gl/MFp45A){:target="_blank"} for reference, write code to produce the tables below:**
+
+    <img scr="images/act-2/table1.png" alt="table 1" style="width:240;">
+
 2.  **Insert and refer figures**<br>
-    Download the figure first: [https://goo.gl/YH3R4n](https://goo.gl/YH3R4n){:target="_blank"}. Upload the picture by clicking “PROJECT” on the top of the page, and then “Files... → Computer”. Then, type `\usepackage{graphicx}` directly after the `\documentclass[a4paper,12pt]{article}` and above the `\begin{document}`. Type the following codes below the `\begin{document}` :-).
+    Download the figure first: [https://goo.gl/YH3R4n](https://goo.gl/YH3R4n){:target="_blank"}. Upload the picture by clicking “PROJECT” on the top of the page, and then “Files... → Computer”. Then, type `\usepackage{graphicx}` directly after the `\documentclass[a4paper,12pt]{article}` and above the `\begin{document}`. Type the following codes below the `\begin{document}` :-) <br>
+    
+    <img scr="images/act-2/refer-fig.png" alt="refer figures" style="float:right;width:240;">
+    
     Insert a figure:
 
     ```
@@ -26,7 +34,12 @@ If you and your group have any questions, or get stuck as you work through this 
     Example: `Please see Figure~\ref{fig:uvic}`.
 
 3.  **Create a three-line table (research paper style)**<br>
+    
+    <img scr="images/act-2/refer-table.png" alt="refer table" style="float:right;width:240;">
+    
     First type: `\usepackage{booktabs}` after `\usepackage{graphicx}` after the \documentclass[a4paper,12pt]{article} and above the \begin{document}. Then type the following codes below the \begin{document}:
+
+    <img scr="images/act-2/3line-table.png" alt="three line table" style="float:right;width:240;">
 
     ```
     \begin{table}[htbp]
@@ -55,6 +68,9 @@ If you and your group have any questions, or get stuck as you work through this 
     `This is the footnote.\footnote{Footnote text.}`
 
 6.  **Creating enumerated and nested lists**<br>
+    
+    <img scr="images/act-2/footnote.png" alt="nested lists" style="float:right;width:240;">
+    
     Note: please insert the following codes into your main body, which means that it should be below the \begin{document} but above the \end{document}.
 
     ```
@@ -70,6 +86,8 @@ If you and your group have any questions, or get stuck as you work through this 
     ```
 
 7.  **Text formatting in LaTex**
+
+    <img scr="images/act-2/verbatim.png" alt="verbatim" style="float:right;width:240;">
 
     ```
     Type Quote: Single `Quote', Double ``Quotes''
