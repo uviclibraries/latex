@@ -6,12 +6,18 @@ parent: Workshop Activities
 ---
 
 <img src="images/logo.png" alt="logo" style="float:right;width:180px;">
+
 # Creating Your First Document
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
+<img src="images/act-1/new-project.png" alt="new project" style="float:right;width:240;">
+
 1.  **Go to [https://www.overleaf.com/](https://www.overleaf.com/){:target="_blank"} and log into your account.**
 2.  **Create a new project and choose the first one (Blank project)**
+
+<img src="images/act-1/first-document.png" alt="first document" style="float:right;width:240;">
+
 3.  **Replace the original text with the following:**
 
     ```
@@ -23,6 +29,10 @@ If you and your group have any questions or get stuck as you work through this i
     
     For the rest of this activity, make sure that all the content of your document stays in between `\begin{document}` and `\end{document}`.
     Note: You can always preview the file on the rightmost window. If you want to, enable "Auto Compile"
+    
+    <img src="images/act-1/auto-compile.png" alt="auto compile" style="width:240;">
+    
+    <img src="images/act-1/first-chunk.png" alt="create title" style="float:right;width:240;">
 
 4.  **Create a Title**<br>
     Insert the following after the `\begin{document}` command:
@@ -39,6 +49,8 @@ If you and your group have any questions or get stuck as you work through this i
 5.  **Add section and subsections**<br>
     Replace “This is my first document” with the following:
     
+    <img src="images/act-1/sections.png" alt="sections" style="float:right;width:240;">
+    
     ```
     \section{Introduction}
     This is the introduction
@@ -52,6 +64,8 @@ If you and your group have any questions or get stuck as you work through this i
     ```
 
 6.  **Produce a list of items in the "Results" section after "Here are my results."**
+    
+    <img src="images/act-1/results.png" alt="results" style="float:right;width:240;">
     
     ```
     \begin{enumerate}
@@ -68,6 +82,8 @@ If you and your group have any questions or get stuck as you work through this i
 7.  **Create a table of contents**<br>
     Insert the following directly after `\maketitle`
     
+    <img src="images/act-1/table-contents.png" alt="table of contents" style="float:right;width:240;">
+    
     ```
     \pagenumbering{roman}
     \tableofcontents
@@ -77,6 +93,8 @@ If you and your group have any questions or get stuck as you work through this i
 
 8.  **Inserting References**<br>
     Download ([https://goo.gl/E9m6S7](https://goo.gl/E9m6S7){:target="_blank"}) and upload the BibTeX file to Overleaf. In the main.tex file, type the following:
+    
+    <img src="images/act-1/reference.png" alt="adding references" style="float:right;width:240;">
     
     ```
     See \cite{DUMMY:1} for more proof details.
