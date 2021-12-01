@@ -13,10 +13,9 @@ If you and your group have any questions or get stuck as you work through this i
 
 1.  **Go to [https://www.overleaf.com/](https://www.overleaf.com/){:target="_blank"} and log into your account.**
 2.  **Create a new project and choose the first one (Blank project)**
+3.  **Replace the original text with the following:**
 
     <img src="images/act-1/first-document.png" alt="first document" style="float:right;width:240px;">
-
-3.  **Replace the original text with the following:**
 
     ```
     \documentclass[a4paper,12pt]{article}
@@ -29,11 +28,11 @@ If you and your group have any questions or get stuck as you work through this i
     Note: You can always preview the file on the rightmost window. If you want to, enable "Auto Compile"
     
     <img src="images/act-1/auto-compile.png" alt="auto compile" style="width:240px;">
-    
-    <img src="images/act-1/first-chunk.png" alt="create title" style="float:right;width:240px;">
 
 4.  **Create a Title**<br>
     Insert the following after the `\begin{document}` command:
+    
+    <img src="images/act-1/first-chunk.png" alt="create title" style="float:right;width:240px;">
     
     ```
     \title{Introduction to LaTeX}
