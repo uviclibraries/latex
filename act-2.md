@@ -18,9 +18,9 @@ If you and your group have any questions, or get stuck as you work through this 
 2.  **Insert and refer figures**<br>
     Download the figure first: [https://goo.gl/YH3R4n](https://goo.gl/YH3R4n){:target="_blank"}. Upload the picture by clicking “PROJECT” on the top of the page, and then “Files... → Computer”. Then, type `\usepackage{graphicx}` directly after the `\documentclass[a4paper,12pt]{article}` and above the `\begin{document}`. Type the following codes below the `\begin{document}` :-) <br>
     
-    <img src="images/act-2/refer-fig.png" alt="refer figures" style="float:right;width:240px;">
-    
     Insert a figure:
+
+    <img src="images/act-2/refer-fig.png" alt="refer figures" style="float:right;width:240px;">
 
     ```
     \begin{figure}[h!]
