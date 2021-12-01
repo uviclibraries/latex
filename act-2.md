@@ -13,7 +13,7 @@ If you and your group have any questions, or get stuck as you work through this 
 
 1.  **Using Chapter 4 (pg. 17-18) [https://goo.gl/MFp45A](https://goo.gl/MFp45A){:target="_blank"} for reference, write code to produce the tables below:**
 
-    <img src="images/act-2/table1.png" alt="table 1" style="width:480px;">
+    <img src="images/act-2/table1.png" alt="table 1" style="width:360px;">
 
 2.  **Insert and refer figures**<br>
     Download the figure first: [https://goo.gl/YH3R4n](https://goo.gl/YH3R4n){:target="_blank"}. Upload the picture by clicking “PROJECT” on the top of the page, and then “Files... → Computer”. Then, type `\usepackage{graphicx}` directly after the `\documentclass[a4paper,12pt]{article}` and above the `\begin{document}`. Type the following codes below the `\begin{document}` :-) <br>
