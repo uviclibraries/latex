@@ -13,8 +13,6 @@ Beamer is a LaTeX class for making presentation slides. Let’s create a new pro
 1.  **Create a new project and choose the first one (Blank paper)**
 2.  **Replace the original text with the following to set up your title page:**
 
-    <img src="images/act-5/title-page.png" alt="title page slide" style="float:right;width:240px;">
-
     ```
     \documentclass[pdf]{beamer}
     \mode<presentation>{}
@@ -30,6 +28,8 @@ Beamer is a LaTeX class for making presentation slides. Let’s create a new pro
     \date{\today}  % it can be customized
     ```
 
+    <img src="images/act-5/title-page.png" alt="title page slide" style="width:480px;">
+
 3.  **Create your overview page and start your work:**
 
     ```
@@ -44,13 +44,12 @@ Beamer is a LaTeX class for making presentation slides. Let’s create a new pro
     \end{document}
     ```
 
+    <img src="images/act-5/final.png" alt="subsection example" style="width:480px;">
+
 4.  **Change the theme for slides:**<br>
     Find the code `\mode<presentation>{}` (In the very beginning).  There are other themes like `\usetheme{CambridgeUS}`
 
 5.  **Create the main body of the slides:**<br>
-    
-    <img src="images/act-5/main-body.png" alt="main body" style="float:right;width:240px;">
-    
     Type the following directly before the `\end{document}`
 
     ```
@@ -78,7 +77,7 @@ Beamer is a LaTeX class for making presentation slides. Let’s create a new pro
 
     Now go back to your content pages, it has automatically updated as below.
 
-    <img src="images/act-5/final.png" alt="subsection example" style="float:right;width:240px;">
+    <img src="images/act-5/main-body.png" alt="main body" style="width:480px;">
 
 6.  **Discover your own preferred template!**<br>
     [https://goo.gl/VUn4Xq](https://goo.gl/VUn4Xq){:target="_blank"}
