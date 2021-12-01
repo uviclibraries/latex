@@ -98,7 +98,8 @@ Type the following chemical equations. Firstly, you need to import a package cal
 \paragraph{easy} \ce{SO4^2- + Ba^2+ -> BaSO4 v}, \ce{CO2 + C ->[\alpha][\beta] 2CO}
 
 \paragraph{hard}\ce{Zn^2+ <=>[\ce{+ 2OH-}][\ce{+ 2H+}] $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$ <=>C[+2OH-][{+ 2H+}] $\underset{\text{Hydroxozikat}}
-{\cf{[Zn(OH)4]^2-}}$}
+{\cf{[Zn(OH)4]^2-}}$} \\
+See \cite{DUMMY:1} for more proof details.
 ```
 
 [NEXT STEP: Presentations With Beamer](act-5.html){: .btn .btn-blue }
