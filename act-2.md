@@ -20,8 +20,6 @@ If you and your group have any questions, or get stuck as you work through this 
     
     Insert a figure:
 
-    <img src="images/act-2/refer-fig.png" alt="refer figures" style="float:right;width:360px;">
-
     ```
     \begin{figure}[h!]
     \centering
@@ -30,6 +28,9 @@ If you and your group have any questions, or get stuck as you work through this 
     \label{fig:uvic}
     \end{figure}
     ```
+    
+    <img src="images/act-2/refer-fig.png" alt="refer figures" style="float:right;width:720px;">
+    
     Type the following to refer the figure.
     Example: `Please see Figure~\ref{fig:uvic}`.
 
