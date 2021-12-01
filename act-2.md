@@ -68,10 +68,9 @@ If you and your group have any questions, or get stuck as you work through this 
     `This is the footnote.\footnote{Footnote text.}`
 
 6.  **Creating enumerated and nested lists**<br>
-    
-    <img src="images/act-2/footnote.png" alt="nested lists" style="float:right;width:240px;">
-    
     Note: please insert the following codes into your main body, which means that it should be below the \begin{document} but above the \end{document}.
+
+    <img src="images/act-2/footnote.png" alt="nested lists" style="float:right;width:360px;">
 
     ```
     \begin{enumerate}
@@ -87,7 +86,7 @@ If you and your group have any questions, or get stuck as you work through this 
 
 7.  **Text formatting in LaTex**
 
-    <img src="images/act-2/verbatim.png" alt="verbatim" style="float:right;width:240px;">
+    <img src="images/act-2/verbatim.png" alt="verbatim" style="float:right;width:360px;">
 
     ```
     Type Quote: Single `Quote', Double ``Quotes''
