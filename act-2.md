@@ -32,7 +32,7 @@ If you and your group have any questions, or get stuck as you work through this 
     Type the following to refer the figure.
     Example: `Please see Figure~\ref{fig:uvic}`.
     
-    <img src="images/act-2/refer-fig.png" alt="refer figures" style="float:right;width:720px;">
+    <img src="images/act-2/refer-fig.png" alt="refer figures" style="float:right;width:720px;"><br>
 
 3.  **Create a three-line table (research paper style)**<br>
     
