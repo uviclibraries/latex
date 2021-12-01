@@ -50,6 +50,8 @@ We can find that the plain [ ] symbols do not scale as the matrix grows. To fix 
 It can be used to scale large fractions and other expressions:
 \[\left(\frac{3+x}{y+z}\right)\]
 
+\newpage
+\section{Advanced math equations}
 Type the following equations in Latex:
 \[
 \frac{1 + \int_0^\pi \cos x dx}{
