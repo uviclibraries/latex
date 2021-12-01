@@ -9,7 +9,7 @@ parent: Workshop Activities
 
 If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
-<img scr="images/act-2/solution1.png" alt="table solution" style="float:right;width:240;">
+<img scr="/images/act-2/solution1.png" alt="table solution" style="float:right;width:240;">
 
 1.  **Using Chapter 4 (pg. 17-18) [https://goo.gl/MFp45A](https://goo.gl/MFp45A){:target="_blank"} for reference, write code to produce the tables below:**
 
