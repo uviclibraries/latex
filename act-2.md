@@ -20,7 +20,7 @@ If you and your group have any questions, or get stuck as you work through this 
     
     Insert a figure:
 
-    <img src="images/act-2/refer-fig.png" alt="refer figures" style="float:right;width:240px;">
+    <img src="images/act-2/refer-fig.png" alt="refer figures" style="float:right;width:360px;">
 
     ```
     \begin{figure}[h!]
