@@ -90,7 +90,7 @@ H[n]=
 \end{cases}
 \]
 
-Type the following chemical equations. Firstly, you need to import a package called ``mhchem''. Type ``$\backslash$usepackage[version=3]\{mhchem\}'' in preamble.
+Type the following chemical equations. Firstly, you need to import a package called ``mhchem". Type ``$\backslash$usepackage[version=3]\{mhchem\}" in preamble.
 \paragraph{Isotopes} \ce{^{227}_{90}Th+}, \ce{NO3-}, \ce{1/2H2O}
 
 \paragraph{easy} \ce{SO4^2- + Ba^2+ -> BaSO4 v}, \ce{CO2 + C ->[\alpha][\beta] 2CO}
