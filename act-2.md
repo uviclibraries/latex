@@ -71,7 +71,7 @@ If you and your group have any questions, or get stuck as you work through this 
 6.  **Creating enumerated and nested lists**<br>
     Note: please insert the following codes into your main body, which means that it should be below the \begin{document} but above the \end{document}.
 
-    <img src="images/act-2/footnote.png" alt="nested lists" style="float:right;width:360px;">
+    <img src="images/act-2/footnote.png" alt="nested lists" style="float:right;width:350px;">
 
     ```
     \begin{enumerate}
