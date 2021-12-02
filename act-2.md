@@ -9,7 +9,7 @@ parent: Workshop Activities
 
 If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
-<img src="images/act-2/solution1.png" alt="table solution" style="float:right;width:360px;">
+<img src="images/act-2/solution1.png" alt="table solution" style="float:right;width:360px;margin-left:10px;">
 
 1.  **Using Chapter 4 (pg. 17-18) [https://goo.gl/MFp45A](https://goo.gl/MFp45A){:target="_blank"} for reference, write code to produce the tables below:**
 
@@ -40,7 +40,7 @@ If you and your group have any questions, or get stuck as you work through this 
     
     First type: `\usepackage{booktabs}` and `\usepackage{graphicx}` after the `\documentclass[a4paper,12pt]{article}` and above the `\begin{document}`. Then type the following codes below the `\begin{document}`:
 
-    <img src="images/act-2/3line-table.png" alt="three line table" style="float:right;width:360px;">
+    <img src="images/act-2/3line-table.png" alt="three line table" style="float:right;width:360px;margin-left:10px;">
 
     ```
     \begin{table}[htbp]
@@ -71,7 +71,7 @@ If you and your group have any questions, or get stuck as you work through this 
 6.  **Creating enumerated and nested lists**<br>
     Note: please insert the following codes into your main body, which means that it should be below the \begin{document} but above the \end{document}.
 
-    <img src="images/act-2/footnote.png" alt="nested lists" style="float:right;width:350px;">
+    <img src="images/act-2/footnote.png" alt="nested lists" style="float:right;width:340px;margin-left:10px;">
 
     ```
     \begin{enumerate}
@@ -87,7 +87,7 @@ If you and your group have any questions, or get stuck as you work through this 
 
 7.  **Text formatting in LaTex**
 
-    <img src="images/act-2/verbatim.png" alt="verbatim" style="float:right;width:360px;">
+    <img src="images/act-2/verbatim.png" alt="verbatim" style="float:right;width:340px;margin-left:10px;">
 
     ```
     Type Quote: Single `Quote', Double ``Quotes''
