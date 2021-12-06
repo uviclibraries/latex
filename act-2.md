@@ -11,11 +11,11 @@ If you and your group have any questions, or get stuck as you work through this 
 
 1.  **Using Chapter 4 (pg. 17-18) [https://goo.gl/MFp45A](https://goo.gl/MFp45A){:target="_blank"} for reference, write code to produce the tables below:**
 
-    <img src="images/act-2/table1.png" alt="table 1" style="width:480px;">
+    <img src="images/act-2/table1.png" alt="table 1" style="width:600px;">
     
-    (Solution)
+    **(Solution)**
     
-    <img src="images/act-2/solution1.png" alt="table solution" style="width:360px;">
+    <img src="images/act-2/solution1.png" alt="table solution" style="width:480px;">
 
 2.  **Insert and refer figures**<br>
     Download the figure first: [https://goo.gl/YH3R4n](https://goo.gl/YH3R4n){:target="_blank"}. Upload the picture by clicking “PROJECT” on the top of the page, and then “Files... → Computer”. Then, type `\usepackage{graphicx}` directly after the `\documentclass[a4paper,12pt]{article}` and above the `\begin{document}`. Type the following codes below the `\begin{document}` :-) <br>
@@ -34,7 +34,7 @@ If you and your group have any questions, or get stuck as you work through this 
     Type the following to refer the figure.
     Example: `Please see Figure~\ref{fig:uvic}`.
     
-    <img src="images/act-2/refer-fig.png" alt="refer figures" style="width:720px;">
+    <img src="images/act-2/refer-fig.png" alt="refer figures" style="width:600px;">
 
 3.  **Create a three-line table (research paper style)**<br>
     
@@ -58,7 +58,7 @@ If you and your group have any questions, or get stuck as you work through this 
     \end{table}
     ```
     
-    <img src="images/act-2/3line-table.png" alt="three line table" style="width:480px;">
+    <img src="images/act-2/3line-table.png" alt="three line table" style="width:600px;">
 
     **Note:** in the `\begin{tabular}{lcl}`, it should type the "**l**" (in short for left) rather than digital number 1 and ‘c’ (in short for center).  {lcl} is used for the column alignment in the table. There are three options for column alignment, namely l (left), c (center) and r (right). You can change this part as you like.
 
@@ -85,7 +85,7 @@ If you and your group have any questions, or get stuck as you work through this 
     \end{enumerate}
     ```
     
-    <img src="images/act-2/footnote.png" alt="nested lists" style="width:480px;">
+    <img src="images/act-2/footnote.png" alt="nested lists" style="width:600px;">
 
 7.  **Text formatting in LaTex**
 
@@ -98,6 +98,6 @@ If you and your group have any questions, or get stuck as you work through this 
     \end{verbatim}
     ```
     
-    <img src="images/act-2/verbatim.png" alt="verbatim" style="width:480px;">
+    <img src="images/act-2/verbatim.png" alt="verbatim" style="width:600px;">
 
 [NEXT STEP: Typing Math Equations](act-3.html){: .btn .btn-blue }
