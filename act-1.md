@@ -89,7 +89,7 @@ If you and your group have any questions or get stuck as you work through this i
     <img src="images/act-1/table-contents.png" alt="table of contents" style="width:600px;">
 
 8.  **Inserting References**<br>
-    Download ([https://goo.gl/E9m6S7](https://goo.gl/E9m6S7){:target="_blank"}) and upload the BibTeX file to Overleaf. In the main.tex file, type the following:
+    Download ([https://goo.gl/E9m6S7](https://goo.gl/E9m6S7){:target="_blank"}) and upload the BibTeX file to Overleaf. In the main.tex file, type the following between `\end{enumerate}` and `\end{document}`:
     
     ```
     See \cite{DUMMY:1} for more proof details.
