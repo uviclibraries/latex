@@ -22,7 +22,7 @@ If you and your group have any questions or get stuck as you work through this i
     \end{document}
     ```
     
-    <img src="images/act-1/first-document.png" alt="first document" style="width:480px;">
+    <img src="images/act-1/first-document.png" alt="first document" style="width:600px;">
     
     <img src="images/act-1/auto-compile.png" alt="auto compile" style="float:right;width:240px;">
     
@@ -41,7 +41,7 @@ If you and your group have any questions or get stuck as you work through this i
     
     You can also customize the data by typing `\date{Dec 2021}`
     
-    <img src="images/act-1/first-chunk.png" alt="create title" style="width:480px;">
+    <img src="images/act-1/first-chunk.png" alt="create title" style="width:600px;">
     
 5.  **Add section and subsections**<br>
     Replace “This is my first document” with the following:
@@ -58,7 +58,7 @@ If you and your group have any questions or get stuck as you work through this i
     Here are my results.
     ```
     
-    <img src="images/act-1/sections.png" alt="sections" style="width:480px;">
+    <img src="images/act-1/sections.png" alt="sections" style="width:600px;">
 
 6.  **Produce a list of items in the "Results" section after "Here are my results."**
     
@@ -74,7 +74,7 @@ If you and your group have any questions or get stuck as you work through this i
     \end{enumerate}
     ```
     
-    <img src="images/act-1/results.png" alt="results" style="width:480px;">
+    <img src="images/act-1/results.png" alt="results" style="width:600px;">
 
 7.  **Create a table of contents**<br>
     Insert the following directly after `\maketitle`
@@ -86,7 +86,7 @@ If you and your group have any questions or get stuck as you work through this i
     \pagenumbering{arabic}
     ```
     
-    <img src="images/act-1/table-contents.png" alt="table of contents" style="width:480px;">
+    <img src="images/act-1/table-contents.png" alt="table of contents" style="width:600px;">
 
 8.  **Inserting References**<br>
     Download ([https://goo.gl/E9m6S7](https://goo.gl/E9m6S7){:target="_blank"}) and upload the BibTeX file to Overleaf. In the main.tex file, type the following:
@@ -99,7 +99,7 @@ If you and your group have any questions or get stuck as you work through this i
     ```
     You can add more references in the "Reference.bib" file.
     
-    <img src="images/act-1/reference.png" alt="adding references" style="width:480px;">
+    <img src="images/act-1/reference.png" alt="adding references" style="width:600px;">
     
 9.  **Download PDF and share the LaTeX file**<br>
     You can download the PDF file by clicking the "Download PDF" button at the top of your compiled LaTeX page. You can also invite others to edit your file by clicking the "SHARE" button at the top right of your screen.
