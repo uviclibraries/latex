@@ -15,8 +15,6 @@ If you and your group have any questions or get stuck as you work through this i
 2.  **Create a new project and choose the first one (Blank project)**
 3.  **Replace the original text with the following:**
 
-    <img src="images/act-1/first-document.png" alt="first document" style="float:right;width:360px;margin-left:10px;">
-
     ```
     \documentclass[a4paper,12pt]{article}
     \begin{document}
@@ -24,13 +22,15 @@ If you and your group have any questions or get stuck as you work through this i
     \end{document}
     ```
     
-    For the rest of this activity, make sure that all the content of your document stays in between `\begin{document}` <img src="images/act-1/auto-compile.png" alt="auto compile" style="float:right;width:240px;">and `\end{document}`.
+    <img src="images/act-1/first-document.png" alt="first document" style="width:480px;">
+    
+    <img src="images/act-1/auto-compile.png" alt="auto compile" style="float:right;width:240px;">
+    
+    For the rest of this activity, make sure that all the content of your document stays in between `\begin{document}` and `\end{document}`.
     Note: You can always preview the file on the rightmost window. If you want to, enable "Auto Compile"
 
 4.  **Create a Title**<br>
     Insert the following after the `\begin{document}` command:
-    
-    <img src="images/act-1/first-chunk.png" alt="create title" style="float:right;width:300px;margin-left:10px;">
     
     ```
     \title{Introduction to LaTeX}
@@ -41,10 +41,10 @@ If you and your group have any questions or get stuck as you work through this i
     
     You can also customize the data by typing `\date{Dec 2021}`
     
+    <img src="images/act-1/first-chunk.png" alt="create title" style="width:480px;">
+    
 5.  **Add section and subsections**<br>
     Replace “This is my first document” with the following:
-    
-    <img src="images/act-1/sections.png" alt="sections" style="float:right;width:300px;margin-left:10px;">
     
     ```
     \section{Introduction}
@@ -57,10 +57,10 @@ If you and your group have any questions or get stuck as you work through this i
     \section{Results}
     Here are my results.
     ```
+    
+    <img src="images/act-1/sections.png" alt="sections" style="width:480px;">
 
 6.  **Produce a list of items in the "Results" section after "Here are my results."**
-    
-    <img src="images/act-1/results.png" alt="results" style="float:right;width:300px;margin-left:10px;">
     
     ```
     \begin{enumerate}
@@ -73,11 +73,11 @@ If you and your group have any questions or get stuck as you work through this i
     \item Third result
     \end{enumerate}
     ```
+    
+    <img src="images/act-1/results.png" alt="results" style="width:480px;">
 
 7.  **Create a table of contents**<br>
     Insert the following directly after `\maketitle`
-    
-    <img src="images/act-1/table-contents.png" alt="table of contents" style="float:right;width:300px;margin-left:10px;">
     
     ```
     \pagenumbering{roman}
@@ -85,11 +85,11 @@ If you and your group have any questions or get stuck as you work through this i
     \newpage
     \pagenumbering{arabic}
     ```
+    
+    <img src="images/act-1/table-contents.png" alt="table of contents" style="width:480px;">
 
 8.  **Inserting References**<br>
     Download ([https://goo.gl/E9m6S7](https://goo.gl/E9m6S7){:target="_blank"}) and upload the BibTeX file to Overleaf. In the main.tex file, type the following:
-    
-    <img src="images/act-1/reference.png" alt="adding references" style="float:right;width:300px;margin-left:10px;">
     
     ```
     See \cite{DUMMY:1} for more proof details.
@@ -98,6 +98,8 @@ If you and your group have any questions or get stuck as you work through this i
     \bibliographystyle{ieeetr}
     ```
     You can add more references in the "Reference.bib" file.
+    
+    <img src="images/act-1/reference.png" alt="adding references" style="width:480px;">
     
 9.  **Download PDF and share the LaTeX file**<br>
     You can download the PDF file by clicking the "Download PDF" button at the top of your compiled LaTeX page. You can also invite others to edit your file by clicking the "SHARE" button at the top right of your screen.
