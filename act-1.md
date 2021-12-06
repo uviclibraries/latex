@@ -30,7 +30,7 @@ If you and your group have any questions or get stuck as you work through this i
     Note: You can always preview the file on the rightmost window. If you want to, enable "Auto Compile"
 
 4.  **Create a Title**<br>
-    Insert the following after the `\begin{document}` command:
+    Replace “This is my first document” with the following:
     
     ```
     \title{Introduction to LaTeX}
@@ -44,7 +44,7 @@ If you and your group have any questions or get stuck as you work through this i
     <img src="images/act-1/first-chunk.png" alt="create title" style="width:600px;">
     
 5.  **Add section and subsections**<br>
-    Replace “This is my first document” with the following:
+    After `\maketitle` but before  `\end{document}` insert the following:
     
     ```
     \section{Introduction}
