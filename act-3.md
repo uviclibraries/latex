@@ -8,7 +8,7 @@ parent: Workshop Activities
 # Typing Math Equations
 If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
-Try to produce the following equations in LaTeX. Use [this](https://www.overleaf.com/learn/latex/Mathematical_expressions){:target="_blank"} as a guide. Check your solutions in Activity #4.
+Try to produce the following equations in LaTeX. Use `\newpage` to make this exercise start on a new page. Use [this](https://www.overleaf.com/learn/latex/Mathematical_expressions){:target="_blank"} as a guide. Check your solutions in Activity #4.
 
 <img src="images/act-3/equ-1.png" alt="equations 1" style="width:720px;">
 
