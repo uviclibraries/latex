@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2-Inserting Tables and Figures
+title: 2-Inserting Tables & Figures
 nav_order: 3
 parent: Workshop Activities
 ---
