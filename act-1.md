@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1-Creating Your First Document
+title: 1-Your First Document
 nav_order: 2
 parent: Workshop Activities
 ---
