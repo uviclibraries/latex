@@ -14,7 +14,7 @@ nav_order: 1
 
 ## Why LaTeX?
 
-"LaTeX, which is pronounced «Lah-tech» or «Lay-tech» (to rhyme with «blech» or «Bertolt Brecht»), is a document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing." - from [LaTex-Project.org](https://www.latex-project.org/about/){:target="_blank"}
+"LaTeX, which is pronounced «Lah-tech» or «Lay-tech», is a document preparation system for high-quality typesetting. It is most often used for medium-to-large technical or scientific documents but it can be used for almost any form of publishing." - from [LaTex-Project.org](https://www.latex-project.org/about/){:target="_blank"}
 
 "LaTeX is intended to provide a high-level, descriptive markup language. LaTeX attempts to follow the design philosophy of separating presentation from content, so that authors can focus on the content of what they are writing without attending simultaneously to its visual appearance. In preparing a LaTeX document, the author specifies the logical structure using simple, familiar concepts such as chapter, section, table, figure, etc., and lets the LaTeX system handle the formatting and layout of these structures." - from [Wikipedia.org](https://en.wikipedia.org/wiki/LaTeX){:target="_blank"}
 
