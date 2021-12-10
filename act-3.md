@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3-Typing Math Equations
+title: 3-Math Equations
 nav_order: 4
 parent: Workshop Activities
 ---
