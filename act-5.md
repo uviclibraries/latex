@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5-Presentations With Beamer
+title: 5-Presentation Slides
 nav_order: 6
 parent: Workshop Activities
 ---
