@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 4-Solutions
+title: 4-Solution for Activity 3
 nav_order: 5
 parent: Workshop Activities
 ---
 
-# Solution to Activity 3
+# Solution for Activity 3
 If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
 Note: Please insert the **\usepackage{amsmath}** after `\documentclass[a4paper,12pt]{article}` and above the \begin{document}. Type the following codes into your main body, which means that these codes should be included into \begin{document}.
