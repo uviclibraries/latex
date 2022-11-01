@@ -76,6 +76,23 @@ If you and your group have any questions or get stuck as you work through this i
     
     <img src="images/act-1/results.png" alt="results" style="width:600px;">
 
+7.  **Create a nested listx**<br>
+    Notice the differences between the first list that used {itemize} and the second list that used nesting.
+
+    ```
+    \begin{enumerate}
+    \item Create a numbered list.
+    \item Lettered lists can be created by being nested.
+    \begin{enumerate}
+    \item The first lettered item...
+    \item The second lettered item...
+    \end{enumerate}
+    \item The last enumerated item...
+    \end{enumerate}
+    ```
+    
+    <img src="images/act-2/footnote.png" alt="nested lists" style="width:600px;">
+
 7.  **Create a table of contents**<br>
     Insert the following directly after `\maketitle`
     
