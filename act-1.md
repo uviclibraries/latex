@@ -5,9 +5,9 @@ nav_order: 2
 parent: Workshop Activities
 ---
 
-<img src="images/act-1/new-project.png" alt="new project" style="float:right;width:240px;">
-
 # Creating Your First Document
+
+<img src="images/act-1/new-project.png" alt="new project" style="float:right;width:240px;">
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
@@ -27,7 +27,7 @@ If you and your group have any questions or get stuck as you work through this i
     <img src="images/act-1/auto-compile.png" alt="auto compile" style="float:right;width:240px;">
     
     For the rest of this activity, make sure that all the content of your document stays in between `\begin{document}` and `\end{document}`.
-    Note: You can always preview the file on the rightmost window. If you want to, enable "Auto Compile"
+    Note: You can always preview the file on the rightmost window. If you want to, enable "Auto Compile".  You can also use the keyboard shortcut **Ctrl+s** (**Cmd+s** on mac) to compile.
 
 4.  **Create a Title**<br>
     Replace “This is my first document” with the following:
@@ -39,11 +39,11 @@ If you and your group have any questions or get stuck as you work through this i
     \maketitle
     ```
     
-    You can also customize the data by typing `\date{Dec 2021}`
+    You can also customize the data by typing `\date{Dec 2042}`
     
     <img src="images/act-1/first-chunk.png" alt="create title" style="width:600px;">
     
-5.  **Add section and subsections**<br>
+5.  **Add sections and subsections**<br>
     After `\maketitle` but before  `\end{document}` insert the following:
     
     ```

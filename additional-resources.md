@@ -10,6 +10,7 @@ nav_order: 10
 - [Overleaf help documentation](https://www.overleaf.com/learn){:target="_blank"}
 - [The Not So Short Introduction to LaTeX](https://tobi.oetiker.ch/lshort/lshort.pdf){:target="_blank"}
 - [Beginner to LaTeX](https://goo.gl/MFp45A){:target="_blank"}
+-  [Keyboard shortcuts](https://www.overleaf.com/latex/templates/overleaf-keyboard-shortcuts/qykqfvmxdnjf.pdf)
 - and good ol' fashioned [Google](https://www.google.ca/){:target="_blank"}
 
 ## Acknowledgements

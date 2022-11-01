@@ -20,7 +20,7 @@ nav_order: 1
 
 ## Audience
 
-LaTex is a useful tool for Anyone who wants to write scientific articles and reports.
+LaTex is a useful tool for anyone who wants to write scientific articles, reports, or presentations.
 
 ## Learning objectives
 
