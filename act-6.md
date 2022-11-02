@@ -43,5 +43,50 @@ Let’s create a new project for this activity in Overleaf.
     ```
     \sffamily Here is some text in Arial, a sans serif family font.
     ```
+5. **Add a font package for Japanese, Chinese, or Korean**
+    -   Add \usepackage{xeCJK} to the top of the file
+    -   Add \setCJKmainfont{IPAMincho} below the other font statements
+    -   Go to [Google Translate](https://translate.google.com/) and translate a phrase from english to Japanese
+    -   Copy the Japanese translation into your overleaf document.
+    -   Re-compile - you should now see the Japanese in the pdf.
+
+5. **Add a font from outside Overleaf**  
+    -   Go to [Google Fonts](https://fonts.google.com/specimen/Asap) and download the Asap font files
+    -  Make a new folder in Overleaf called "AsaFontFiles"
+    -  Upload the font files into the new folder
+    -  Copy and paste into your document:
+
+```
+
+\setsansfont{Asap}[
+    Path=./AsapFontFiles/,
+    Scale=0.9,
+    Extension = .ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    BoldItalicFont=*-BoldItalic
+    ]
+```
+
+6. Using a phonetic font
+    -   Make a new folder called **TipaFontFiles**
+    -   Download the [tipa font files](https://ctan.org/tex-archive/fonts/tipa/tipa/type1)
+    -   tipa has a lot of different options, but to keep things simple upload roman (tipa8), bold (tipab10), italic (tipasl8), and bold italic (tipasb10) to your new folder.
+    -  Copy and paste:
+    ```
+    \setromanfont{tipa}[
+    Path=./TipaFontFiles/,
+    Scale=0.9,
+    Extension = .pfb,
+    UprightFont=*8,
+    BoldFont=*b10,
+    ItalicFont=*sl8,
+    BoldItalicFont=*sb10
+    ]
+    ```
+    - Use [pages 14 and 36-56 of this reference document](https://muug.ca/mirror/ctan/fonts/tipa/tipa/doc/tipaman.pdf) to type up some phonetic symbols.
+
+**Congratulations - now you know about fonts and LaTeX!**
 
 [NEXT STEP: Earn a Workshop Badge](informal-credentials.html){: .btn .btn-blue }
