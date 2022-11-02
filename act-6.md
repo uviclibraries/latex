@@ -12,9 +12,9 @@ XeLaTeX is an alternative compiler to regular LaTeX that supports Unicode text a
 
 Let’s create a new project for this activity in Overleaf.
 
-1.  **Create a new project and choose the first one (Blank paper)**
+1.  **Create a new project in Overleaf and choose the first one (Blank paper)**
 
-<img src="images/act-6/menu.jpg" alt="menu button" style="float:right;width:180px;margin-left:10px;">
+    <img src="images/act-6/menu.jpg" alt="menu button" style="float:right;width:180px;margin-left:10px;">
 
 2.  **Change compiler**. Click the top left **Menu** button, scroll down to Settings, click the drop down next to Compiler, then select **XeLaTeX**.
 
@@ -25,7 +25,7 @@ Let’s create a new project for this activity in Overleaf.
     ```
     \documentclass[pdf]{article}
     \usepackage{fontspec}       
-    \setmainfont{Times New Roman}
+    \setromanfont{Times New Roman}
     \setsansfont{Arial}
     \title{Fun with Fonts}
     \author{Your name here}
@@ -39,43 +39,52 @@ Let’s create a new project for this activity in Overleaf.
 
     <img src="images/act-6/title-page.jpg" alt="title page slide" style="width:600px;">
 4. **Change the font**
-    Type some text in a different font:
+    -   Add text in a different font by typing it inside curly brackets.  Copy and paste the below line somewhere between your ```\begin{document}``` and ```\end{document}```statements.
     ```
-    \sffamily Here is some text in Arial, a sans serif family font.
+    {\sffamily Here is some text in Arial, a sans serif family font.}\\
+    {\rmfamily Here is some text in Times New roman, a serif font.}
     ```
+
 5. **Add a font package for Japanese, Chinese, or Korean**
-    -   Add \usepackage{xeCJK} to the top of the file
-    -   Add \setCJKmainfont{IPAMincho} below the other font statements
-    -   Go to [Google Translate](https://translate.google.com/) and translate a phrase from english to Japanese
+    -   Add ```\usepackage{xeCJK}``` to the top of the file
+    -   Add ```\setCJKmainfont{IPAMincho}``` below the other font statements
+    -   Go to [Google Translate](https://translate.google.com/){:target="_blank"} and translate a phrase from English to Japanese
     -   Copy the Japanese translation into your overleaf document.
-    -   Re-compile - you should now see the Japanese in the pdf.
+    -   Re-compile - you should now see the Japanese text in the pdf.
+
+     <img src="images/act-6/download family.png" alt="download family" style="float:right;width:200px; margin-left:10px;">
 
 5. **Add a font from outside Overleaf**  
-    -   Go to [Google Fonts](https://fonts.google.com/specimen/Asap) and download the Asap font files
-    -  Make a new folder in Overleaf called "AsaFontFiles"
-    -  Upload the font files into the new folder
+    -   Go to [Google Fonts](https://fonts.google.com/specimen/Asap){:target="_blank"}  and download the Asap font family files by clicking the **Download Family** button on the top right.
+        <img src="images/act-6/upload files.png" alt="uploading files" style="float:right;width:200px; margin-left:10px;">
+    -  Click the top left folder icon to make a new folder in Overleaf. Name the folder "AsapFontFiles". _Note: the folder name is case sensitive!_
+    -  Upload the font files into your new folder using the upload button on the top left.
     -  Copy and paste into your document:
 
-```
+    ```
 
-\setsansfont{Asap}[
-    Path=./AsapFontFiles/,
-    Scale=0.9,
-    Extension = .ttf,
-    UprightFont=*-Regular,
-    BoldFont=*-Bold,
-    ItalicFont=*-Italic,
-    BoldItalicFont=*-BoldItalic
+    \setsansfont{Asap}[
+        Path=./AsapFontFiles/,
+        Scale=0.9,
+        Extension = .ttf,
+        UprightFont=*-Regular,
+        BoldFont=*-Bold,
+        ItalicFont=*-Italic,
+        BoldItalicFont=*-BoldItalic
     ]
-```
+    ```
+    - Try writing some text in the Asap font:
+    ```{\sffamily Now we can type in asap! The Quick Brown Fox Jumps Over the Lazy Dog}```
+    <img src="images/act-6/asap font.png" alt="asap font result" style="width:700px;">
 
-6. Using a phonetic font
+
+6. **Use a phonetic alphabet font**
     -   Make a new folder called **TipaFontFiles**
-    -   Download the [tipa font files](https://ctan.org/tex-archive/fonts/tipa/tipa/type1)
-    -   tipa has a lot of different options, but to keep things simple upload roman (tipa8), bold (tipab10), italic (tipasl8), and bold italic (tipasb10) to your new folder.
+    -   Download the [tipa font files](https://ctan.org/tex-archive/fonts/tipa/tipa/type1){:target="_blank"} 
+    -   Tipa has a lot of different font options, but to keep things simple upload roman (tipa8), bold (tipab10), italic (tipasl8), and bold italic (tipasb10) to your new folder.
     -  Copy and paste:
     ```
-    \setromanfont{tipa}[
+    \setsansfont{tipa}[
     Path=./TipaFontFiles/,
     Scale=0.9,
     Extension = .pfb,
@@ -85,8 +94,14 @@ Let’s create a new project for this activity in Overleaf.
     BoldItalicFont=*sb10
     ]
     ```
-    - Use [pages 14 and 36-56 of this reference document](https://muug.ca/mirror/ctan/fonts/tipa/tipa/doc/tipaman.pdf) to type up some phonetic symbols.
+    - Use [pages 14 and 36-56 of the Tipa manual](https://muug.ca/mirror/ctan/fonts/tipa/tipa/doc/tipaman.pdf){:target="_blank"}  to type up some phonetic symbols.
+    - Try to write out the pronunciation for the word Lekwungen:
+    <img src="images/act-6/lekwungen.png" alt="asap font result" style="width:100px;">
+    - Solution: 
+    ```{\sffamily l@\textvbaraccent{k}\textsuperscript{w}@N@n}```
 
-**Congratulations - now you know about fonts and LaTeX!**
+7. For more help on XeLaTeX go to [overleaf.com/learn/latex/XeLaTeX]( https://www.overleaf.com/learn/latex/XeLaTeX){:target="_blank"} 
+
+**Congratulations - now you know about fonts and XeLaTeX!**
 
 [NEXT STEP: Earn a Workshop Badge](informal-credentials.html){: .btn .btn-blue }
