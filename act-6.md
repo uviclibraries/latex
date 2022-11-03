@@ -54,7 +54,7 @@ Let’s create a new project for this activity in Overleaf.
 
      <img src="images/act-6/download family.png" alt="download family" style="float:right;width:200px; margin-left:10px;">
 
-5. **Add a font from outside Overleaf**  
+6. **Add a font from outside Overleaf**  
     -   Go to [Google Fonts](https://fonts.google.com/specimen/Asap){:target="_blank"}  and download the Asap font family files by clicking the **Download Family** button on the top right.
         <img src="images/act-6/upload files.png" alt="uploading files" style="float:right;width:200px; margin-left:10px;">
     -  Click the top left folder icon to make a new folder in Overleaf. Name the folder "AsapFontFiles". _Note: the folder name is case sensitive!_
@@ -77,8 +77,14 @@ Let’s create a new project for this activity in Overleaf.
     ```{\sffamily Now we can type in asap! The Quick Brown Fox Jumps Over the Lazy Dog}```
     <img src="images/act-6/asap font.png" alt="asap font result" style="width:700px;">
 
+7. **Add a Unicode font**   
+    -   In the top of the document, add ```\setmainfont{Doulos SIL}```.  Notice that this will override the Times New Roman font we used earlier.
+        -   _Note: in most cases you will only need one or two fonts per document, so this is normally not an issue!_
+    -   Doulos SIL is a [Unicode](https://en.wikipedia.org/wiki/Unicode) font family.  Now you can use unicode characters in your LaTeX document!
+    -   Type some IPA (International Phonetic Alphabet) characters [with this brower-based IPA keyboard](https://keymanweb.com/#und-fonipa,Keyboard_sil_ipa) using [this reference guide](https://help.keyman.com/keyboard/sil_ipa/1.8.6/sil_ipa), then copy and paste them into your Overleaf document. 
+        -  _If you already have a unicode keyboard installed, you can use it to type directly in your Overleaf document_.
 
-6. **Use a phonetic alphabet font**
+8. **OPTIONAL: Using Tipa, a phonetic alphabet font**
     -   Make a new folder called **TipaFontFiles**
     -   Download the [tipa font files](https://ctan.org/tex-archive/fonts/tipa/tipa/type1){:target="_blank"} 
     -   Tipa has a lot of different font options, but to keep things simple upload roman (tipa8), bold (tipab10), italic (tipasl8), and bold italic (tipasb10) to your new folder.
@@ -100,7 +106,7 @@ Let’s create a new project for this activity in Overleaf.
     - Solution: 
     ```{\sffamily l@\textvbaraccent{k}\textsuperscript{w}@N@n}```
 
-7. For more help on XeLaTeX go to [overleaf.com/learn/latex/XeLaTeX]( https://www.overleaf.com/learn/latex/XeLaTeX){:target="_blank"} 
+9.  More help on XeLaTeX: [overleaf.com/learn/latex/XeLaTeX]( https://www.overleaf.com/learn/latex/XeLaTeX){:target="_blank"} 
 
 **Congratulations - now you know about fonts and XeLaTeX!**
 
