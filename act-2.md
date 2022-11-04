@@ -16,7 +16,7 @@ If you and your group have any questions, or get stuck as you work through this 
     <img src="images/act-2/table1.png" alt="table 1" style="width:500px;">
     
     <button onclick="toggle('sol')">**Show/Hide Solution**</button>
-    <div id="sol">
+    <div id="sol" style="display: none">
     <img src="images/act-2/solution1.png" alt="table solution" style="width:480px;">
     </div>
 3.  Immediately below the last `\end{tabular}` type another `\newpage`
@@ -94,10 +94,10 @@ If you and your group have any questions, or get stuck as you work through this 
 <script>  
     function toggle(input) {
         var x = document.getElementById(input);
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
+        if (x.style.display === "none") {
             x.style.display = "block";
+        } else {
+            x.style.display = "none";
         }
     }
 </script>
