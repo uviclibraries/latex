@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 6 - Fun with Fonts [UNDER CONSTRUCTION]
+title: 6 - Fun with Fonts
 nav_order: 7
 parent: Workshop Activities
 ---
@@ -81,7 +81,7 @@ Let’s create a new project for this activity in Overleaf.
     ```
     - Try writing some text in the Asap font:
     ```\sffamily Now we can type in asap! The Quick Brown Fox Jumps Over the Lazy Dog```
-    
+
     <img src="images/act-6/asap font.png" alt="asap font result" style="width:700px;">
 
 7. **Add a Unicode font**   

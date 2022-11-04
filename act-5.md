@@ -82,4 +82,4 @@ Beamer is a LaTeX class for making presentation slides. Let’s create a new pro
 6.  **Discover your own preferred template!**<br>
     [https://goo.gl/VUn4Xq](https://goo.gl/VUn4Xq){:target="_blank"}
 
-[NEXT STEP: Earn a Workshop Badge](informal-credentials.html){: .btn .btn-blue }
+[NEXT STEP: Fun with Fonts](act-6.html){: .btn .btn-blue }
