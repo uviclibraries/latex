@@ -76,7 +76,7 @@ If you and your group have any questions or get stuck as you work through this i
     
     <img src="images/act-1/results.png" alt="results" style="width:600px;">
 
-7.  **Create a nested listx**<br>
+7.  **Create a nested list**<br>
     Notice the differences between the first list that used {itemize} and the second list that used nesting.
 
     ```
