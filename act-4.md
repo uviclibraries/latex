@@ -19,9 +19,11 @@ The ratio of the circumference of a circle to its diameter: $\pi$.\\
 To type a fraction:
 \[\frac{3+x}{y+z}\]
 
-If the sub/superscript contains more than one character, it should be enclosed in curly braces, as in $100^{x+y}$, $X_{ij}$.\\
+If the sub/superscript contains more than one character, 
+it should be enclosed in curly braces, as in $100^{x+y}$, $X_{ij}$.\\
 
-The commands for Greek letters are easy and intuitive: $\alpha,\beta,\gamma,\lambda,\Gamma,\Lambda$
+The commands for Greek letters are easy and intuitive: 
+$\alpha,\beta,\gamma,\lambda,\Gamma,\Lambda$
 
 Align the equations:
 
@@ -39,7 +41,8 @@ To get a matrix,
 \end{matrix}]
 \]
 
-We can find that the plain [ ] symbols do not scale as the matrix grows. To fix this, we use the following code:
+We can find that the plain [ ] symbols do not scale as the matrix grows. 
+To fix this, we use the following code:
 \[
 \left[\begin{matrix}
 1 & 0\\
@@ -92,12 +95,17 @@ H[n]=
 \end{cases}
 \]
 
-Type the following chemical equations. Firstly, you need to import a package called ``mhchem". Type ``$\backslash$usepackage[version=3]\{mhchem\}" in preamble.
+Type the following chemical equations. 
+Firstly, you need to import a package called ``mhchem". 
+Type ``$\backslash$usepackage[version=3]\{mhchem\}" in preamble.
 \paragraph{Isotopes} \ce{^{227}_{90}Th+}, \ce{NO3-}, \ce{1/2H2O}
 
-\paragraph{easy} \ce{SO4^2- + Ba^2+ -> BaSO4 v}, \ce{CO2 + C ->[\alpha][\beta] 2CO}
+\paragraph{easy} \ce{SO4^2- + Ba^2+ -> BaSO4 v}, 
+\ce{CO2 + C ->[\alpha][\beta] 2CO}
 
-\paragraph{hard}\ce{Zn^2+ <=>[\ce{+ 2OH-}][\ce{+ 2H+}] $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$ <=>C[+2OH-][{+ 2H+}] $\underset{\text{Hydroxozikat}}
+\paragraph{hard}\ce{Zn^2+ <=>[\ce{+ 2OH-}][\ce{+ 2H+}] 
+$\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$ <=>C[+2OH-][{+ 2H+}] 
+$\underset{\text{Hydroxozikat}}
 {\cf{[Zn(OH)4]^2-}}$} \\
 See \cite{DUMMY:1} for more proof details.
 ```

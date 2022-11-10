@@ -11,15 +11,17 @@ customjs: http://code.jquery.com/jquery-1.4.2.min.js
 If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance. Have fun!
 
 1.  Immediately below `\end{enumerate}` type `\newpage`
+
 2.  **Using Chapter 4 (pg. 17-18)** [https://goo.gl/MFp45A](https://goo.gl/MFp45A){:target="_blank"} for reference, write code below your most recent `\newpage` line to produce the tables below:**
 
     <img src="images/act-2/table1.png" alt="table 1" style="width:500px;">
     
     <button onclick="toggle('sol')">**Show/Hide Solution**</button>
-    <div id="sol">
+    <div id="sol" style="display: none">
     <img src="images/act-2/solution1.png" alt="table solution" style="width:480px;">
     </div>
 3.  Immediately below the last `\end{tabular}` type another `\newpage`
+
 4.  **Insert and refer figures**<br>
     Download the figure first: [https://goo.gl/YH3R4n](https://goo.gl/YH3R4n){:target="_blank"}. Upload the picture by clicking “PROJECT” on the top of the page, and then “Files... → Computer”. Then, at the top of your document, type `\usepackage{graphicx}` directly after the `\documentclass[a4paper,12pt]{article}` and above the `\begin{document}`. Type the following codes below your most recent `\newpage`<br>
     
@@ -40,6 +42,7 @@ If you and your group have any questions, or get stuck as you work through this 
     <img src="images/act-2/refer-fig.png" alt="refer figures" style="width:600px;">
 
 5.  Immediately below the line referring the figure, type another `\newpage`
+
 6.  **Create a three-line table (research paper style)**<br>
     
     <img src="images/act-2/refer-table.png" alt="refer table" style="float:right;width:240px;">
@@ -68,15 +71,15 @@ If you and your group have any questions, or get stuck as you work through this 
 
 7.  Ensure that the following codes are inserted into your main body, anywhere below the \begin{document} but above the \end{document}.
 
-8.  **Reference a table** <br>
+- **Reference a table** <br>
     Type the following in your paragraph to refer the table: 
     `Please see Table~\ref{tab:test}.`
 
-9.  **Insert a footnote**<br>
+- **Insert a footnote**<br>
     Type the following:
     `This is the footnote.\footnote{Footnote text.}`
 
-10.  **Add Verbatim text**
+- **Add Verbatim text**
 
     ```
     Type Quote: Single `Quote', Double ``Quotes''
@@ -94,10 +97,10 @@ If you and your group have any questions, or get stuck as you work through this 
 <script>  
     function toggle(input) {
         var x = document.getElementById(input);
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
+        if (x.style.display === "none") {
             x.style.display = "block";
+        } else {
+            x.style.display = "none";
         }
     }
 </script>
