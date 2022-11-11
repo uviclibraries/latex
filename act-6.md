@@ -57,7 +57,7 @@ Let’s create a new project for this activity in Overleaf.
     -   Copy the Japanese translation into your overleaf document.
     -   Re-compile - you should now see the Japanese text in the pdf.
 
-    <img src="images/act-6/Japanese.png" alt="title page slide" style="width:600px;">
+    <img src="images/act-6/Japanese.png" alt="compiled japanese text" style="width:600px;">
 
 6. **Add a font from outside Overleaf**  
     <img src="images/act-6/download family.png" alt="download family" style="float:right;width:200px; margin-left:10px;">
@@ -82,14 +82,14 @@ Let’s create a new project for this activity in Overleaf.
     - Try writing some text in the Asap font:
     ```\sffamily Now we can type in asap! The Quick Brown Fox Jumps Over the Lazy Dog```
 
-    <img src="images/act-6/asap font.png" alt="asap font result" style="width:700px;">
+    <img src="images/act-6/asapfont.png" alt="asap font result" style="width:700px;">
 
 7. **Add a Unicode font**   
     -   In the top of the document, replace ```\setmainfont{Times New Roman}``` with ```\setmainfont{Doulos SIL}``` 
     -   Doulos SIL is a [Unicode](https://en.wikipedia.org/wiki/Unicode){:target="_blank"} font family.  Now you can use unicode characters in your LaTeX document!
     -   Type some IPA (International Phonetic Alphabet) characters using [this browser IPA keyboard](https://keymanweb.com/#und-fonipa,Keyboard_sil_ipa){:target="_blank"} and [this reference guide](https://help.keyman.com/keyboard/sil_ipa/1.8.6/sil_ipa){:target="_blank"}, then copy and paste them into your Overleaf document.
         -  _If you have a unicode keyboard installed on your computer, you can type directly in your Overleaf document_.
-    -   Type out these [Sencoten](https://www.languagegeek.com/salishan/sencoten.html){:target="_blank"} words using the [Sencoten Keyboard](https://keyman.com/keyboards/fv_sencoten){:target="_blank"}, then copy-paste them into a table like the image below.
+    -   Type out these [SENĆOŦEN](https://www.languagegeek.com/salishan/sencoten.html){:target="_blank"} words using the [SENĆOŦEN Keyboard](https://keyman.com/keyboards/fv_sencoten){:target="_blank"}, then copy-paste them into a table like the image below.
         -   _Hint: use ' to add top accent, - for dash accent and = for low line accent._
 
         <img src="images/act-6/sencoten.png" alt="sencoten words" style="width:500px;">
@@ -100,14 +100,11 @@ Let’s create a new project for this activity in Overleaf.
 
     In Overleaf:
 
-    <img src="images/act-6/sencoten table.png" alt="table in overleaf" style="width:600px;">
+    <img src="images/act-6/sencoten-table.png" alt="table in overleaf" style="width:600px;">
     </div>
         
-
-        
-
 8. **OPTIONAL: Using Tipa, a phonetic alphabet font**
-    -   Tipa is an older way to type IPA in LaTeX - you can skip this part of the activity if you like.
+    -   Tipa is an older way to use IPA symbols in LaTeX before unicode was supported - you can skip this part of the activity if you like.
     -   Make a new folder called **TipaFontFiles**
     -   Download the [tipa font files](https://ctan.org/tex-archive/fonts/tipa/tipa/type1){:target="_blank"} 
     -   Tipa has a lot of different font options, but to keep things simple upload roman (tipa8), bold (tipab10), italic (tipasl8), and bold italic (tipasb10) to your new folder.
@@ -124,7 +121,7 @@ Let’s create a new project for this activity in Overleaf.
     ]
     ```
     - Use [pages 14 and 36-56 of the Tipa manual](https://muug.ca/mirror/ctan/fonts/tipa/tipa/doc/tipaman.pdf){:target="_blank"}  to type up some phonetic symbols.
-    - Try to write out the IPA pronunciation for Lekwungen:
+    - Try to write out the IPA pronunciation for Lekwungen:<br>
     <img src="images/act-6/lekwungen.png" alt="asap font result" style="width:100px;">
     - Solution: 
     ```\sffamily l@\textvbaraccent{k}\textsuperscript{w}@N@n```
