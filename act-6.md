@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 6 - Fun with Fonts
+title: 6-Fun with Fonts
 nav_order: 7
 parent: Workshop Activities
 ---
