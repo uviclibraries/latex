@@ -122,7 +122,7 @@ If you and your group have any questions or get stuck as you work through this i
     To upload it to Overleaf, first open the left-hand menu to display the file tree. It might be hidden, so click the little arrow on the right to open the file tree, as shown here:
     <img src="images/act-1/open-file-tree.png" alt="table of contents" style="width:500px;">
 
-Then, click on the upload icon ![upload icon](images/act-1/upload.png) and select the fiel for upload.
+Then, click on the upload icon ![upload icon](images/act-1/upload.png){width=25px} and select the file for upload.
 
     In the main.tex file, type the following between `\end{enumerate}` and `\end{document}`:
     
