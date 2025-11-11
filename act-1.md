@@ -31,7 +31,7 @@ If you and your group have any questions or get stuck as you work through this i
 4.  **Create a Title**<br>
 
     To create a title, you should add a few more pieces of information in the preamble.
-    After \documentclass but before \begin{document}, add the following:
+    After `\documentclass` but before `\begin{document}`, add the following:
     
     ```
     \title{Introduction to LaTeX}
@@ -50,7 +50,7 @@ If you and your group have any questions or get stuck as you work through this i
     \end{document}
     ```
     
-        <img src="images/act-1/first-chunk.png" alt="create title" style="width:600px;">
+    <img src="images/act-1/first-chunk.png" alt="create title" style="width:600px;">
     
 6.  **Add sections and subsections**<br>
     After `\maketitle` but before  `\end{document}` insert the following:
