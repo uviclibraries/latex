@@ -24,36 +24,36 @@ If you and your group have any questions, or get stuck as you work through this 
 3.  Immediately below the last `\end{tabular}` type another `\newpage`
 
 4.  **Insert and refer figures**<br>
-    Download the figure first: [https://goo.gl/YH3R4n](https://goo.gl/YH3R4n){:target="_blank"}. Upload the picture by clicking “PROJECT” on the top of the page, and then “Files... → Computer”. Then, at the top of your document, type `\usepackage{graphicx}` directly after the `\documentclass[a4paper,12pt]{article}` and above the `\begin{document}`. Type the following codes below your most recent `\newpage`<br>
-    
-    Insert a figure:
+    Download the figure from [here](docs/uvic.png){:target="_blank"} first. Upload the picture by clicking the upload icon <img src="images/act-1/upload.png" alt="upload icon" style="width:25px;"> on the top of the page, and then “Files... → Computer”.
+    Then, at the top of your document, type `\usepackage{graphicx}` directly after the `\documentclass[a4paper,12pt]{article}` and above the `\title{Introduction to LaTeX}`. This will load the package `graphicx`, which is required to add figures.
+    Type the following codes below your most recent `\newpage`. The comments after `%` explain what each lines does.
 
     ```
-    \begin{figure}[h!]
-    \centering
-    \includegraphics[width=1\textwidth]{uvic.png}
-    \caption{This is caption}
-    \label{fig:uvic}
-    \end{figure}
+    \begin{figure}[h!] % This begins a figure environment; [h!] tells LaTeX to place it "here" if possible, overriding other placement rules
+    \centering % Centers the figure horizontally on the page
+    \includegraphics[width=1\textwidth]{uvic.png}  % Includes the image file 'uvic.png', scaling it to the full width of the text area
+    \caption{This is caption} % Adds a caption below the figure
+    \label{fig:uvic} % Assigns a label to the figure for referencing it elsewhere in the document (e.g., \ref{fig:uvic}). See next steps
+    \end{figure} % Ends the figure environment
     ```
     
-    Type the following to refer the figure.
-    Example: `Please see Figure~\ref{fig:uvic}`.
+    Then, type the following anywhere in the text to refer to the figure.
+    Example: `Please see Figure~\ref{fig:uvic}`. Note: the label "uvic" for the figure should be the same as the label determined in the `\label` code above.
     
     <img src="images/act-2/refer-fig.png" alt="refer figures" style="width:600px;">
 
-5.  Immediately below the line referring the figure, type another `\newpage`
+6.  Immediately below the line referring the figure, type another `\newpage`
 
-6.  **Create a three-line table (research paper style)**<br>
+7.  **Create a three-line table (research paper style)**<br>
     
     <img src="images/act-2/refer-table.png" alt="refer table" style="float:right;width:240px;">
     
-    First type: `\usepackage{booktabs}` and `\usepackage{graphicx}` at the top of your document after the `\documentclass[a4paper,12pt]{article}` and above the `\begin{document}`. Then type the following codes below the most recent `\newpage`<br>
+    First type: `\usepackage{booktabs}` and `\usepackage{graphicx}` at the top of your document after the `\documentclass[a4paper,12pt]{article}` and above the `\title{Introduction to LaTeX}`. Then type the following codes below the most recent `\newpage`<br>
 
     ```
-    \begin{table}[htbp]
+    \begin{table}[htbp] % Starts table environent
     \centering
-     \caption{\label{tab:test}Caption for table}
+     \caption{\label{tab:test}Caption for table} % Assigns label and caption. Label cna be used to reference table in text.
      \begin{tabular}{lcl} 
       \toprule
       Model & Adjusted $R^2$ & p-value \\
@@ -63,18 +63,16 @@ If you and your group have any questions, or get stuck as you work through this 
      Model3 & 0.8 & 0.03 \\
       \bottomrule
      \end{tabular}
-    \end{table}
+    \end{table} % Ends table environment
     ```
     
-    <img src="images/act-2/3line-table.png" alt="three line table" style="width:600px;">
+    **Note:** in the `\begin{tabular}{lcl}`, you should type the "**l**" (in short for left) rather than digital number 1 and ‘c’ (in short for center).  {lcl} is used for the column alignment in the table. There are three options for column alignment, namely l (left), c (center) and r (right). You can change this part as you like.
 
-    **Note:** in the `\begin{tabular}{lcl}`, it should type the "**l**" (in short for left) rather than digital number 1 and ‘c’ (in short for center).  {lcl} is used for the column alignment in the table. There are three options for column alignment, namely l (left), c (center) and r (right). You can change this part as you like.
-
-7.  Ensure that the following codes are inserted into your main body, anywhere below the \begin{document} but above the \end{document}.
+8.  Ensure that the following codes are inserted into your main body, anywhere below the \begin{document} but above the \end{document}.
 
 - **Reference a table** <br>
     Type the following in your paragraph to refer the table: 
-    `Please see Table~\ref{tab:test}.`
+    `Please see Table~\ref{tab:test}.` Note that this should be the same label that you assigned to the table in the code above.
 
 - **Insert a footnote**<br>
     Type the following:
@@ -83,7 +81,6 @@ If you and your group have any questions, or get stuck as you work through this 
 - **Add Verbatim text**
 
     ```
-    Type Quote: Single `Quote', Double ``Quotes''
     \begin{verbatim}
     The verbatim environment
      reproduces every input,
