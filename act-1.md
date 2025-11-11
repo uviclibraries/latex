@@ -124,7 +124,7 @@ If you and your group have any questions or get stuck as you work through this i
 
 Then, click on the upload icon <img src="images/act-1/upload.png" alt="upload icon" style="width:25px;"> and select the file for upload.
 
-    In the main.tex file, type the following between `\end{enumerate}` and `\end{document}`:
+In the main.tex file, type the following between `\end{enumerate}` and `\end{document}`:
     
 ```
 See \cite{DUMMY:1} for more proof details. % This creates a citation. It should match the name of the citation in the .bib file
