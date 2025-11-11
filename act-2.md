@@ -16,9 +16,10 @@ If you and your group have any questions, or get stuck as you work through this 
 
     <img src="images/act-2/table1.png" alt="table 1" style="width:500px;">
     
-    <button onclick="toggle('sol')">**Show/Hide Solution**</button>
-    <div id="sol" style="display: none">
-```
+<details>
+<summary>Show/Hide Solution</summary>
+
+```latex
 \begin{tabular}{l | r | r |}
 Name & Height (cm) & Weight (kg)
 \\
@@ -42,7 +43,7 @@ Calgary & G & H & I \\
 
 \end{tabular}
 ```
-    </div>
+</details>
     
 3.  Immediately below the last `\end{tabular}` type another `\newpage`
 
