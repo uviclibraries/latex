@@ -10,7 +10,7 @@ If you and your group have any questions, or get stuck as you work through this 
 
 1.  Try to produce the following equations in LaTeX. Use `\newpage` to make this exercise start on a new page. 
     -   Use [this](https://www.overleaf.com/learn/latex/Mathematical_expressions){:target="_blank"} as a guide. 
-    -   To use the amsmath package, type **\usepackage{amsmath}** after **\documentclass[a4paper,12pt]{article}** and above the **\begin{document}**.
+    -   To use the amsmath package, type `\usepackage{amsmath}` after `\documentclass[a4paper,12pt]{article}` and above the `\title{Introduction to LaTeX}`.
 2.  Check your solutions on the next page (Activity #4).
 
 <img src="images/act-3/equ-1.png" alt="equations 1" style="width:720px;">
