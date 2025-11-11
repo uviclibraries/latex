@@ -16,35 +16,10 @@ If you and your group have any questions, or get stuck as you work through this 
 
     <img src="images/act-2/table1.png" alt="table 1" style="width:500px;">
     
-<details>
-<summary>Show/Hide Solution</summary>
-{% raw %}
-```latex
-\begin{tabular}{l | r | r |}
-Name & Height (cm) & Weight (kg)
-\\
-\hline
-Tom & 175 & 83 \\
-Mary & 165 & 50 \\
-Peter & 160 & 70 \\
-\end{tabular}
-
-Insert vertical space between tables
-\vspace{2em}
-  
-\begin{tabular}{l | c  c  c }
-&  & Year &  \\
-\cline{2-4}
-City & 2016 & 2017 & 2018 \\
-\hline
-Victoria & A & B & C \\
-Vancouver & D & E & F \\
-Calgary & G & H & I \\
- 
-\end{tabular}
-```
-{% endraw %}
-</details>
+    <button onclick="toggle('sol')">**Show/Hide Solution**</button>
+    <div id="sol" style="display: none">
+    <img src="images/act-2/solution1.png" alt="table solution" style="width:480px;">
+    </div>
     
 3.  Immediately below the last `\end{tabular}` type another `\newpage`
 
