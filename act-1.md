@@ -88,7 +88,7 @@ If you and your group have any questions or get stuck as you work through this i
     <img src="images/act-1/results.png" alt="results" style="width:600px;">
 
 8.  **Create a nested list**<br>
-    Notice the differences between the first list that used {itemize} and the second list that used nesting.
+    Notice the differences between the first list that used `{itemize}` and the second list that used nesting.
 
     ```
     \begin{enumerate}
@@ -102,10 +102,10 @@ If you and your group have any questions or get stuck as you work through this i
     \end{enumerate}
     ```
     
-    <img src="images/act-2/footnote.png" alt="nested lists" style="width:600px;">
+    <img src="images/act-1/nested-list.png" alt="nested lists" style="width:600px;">
 
 7.  **Create a table of contents**<br>
-    Insert the following directly after `\maketitle`
+    Insert the following directly after `\maketitle`. This sets roman numbering for the first page, where you add a table of contents. Then the `\newpage` command creates a new page, where page numbering is set using arabic numbers.
     
     ```
     \pagenumbering{roman}
@@ -117,7 +117,14 @@ If you and your group have any questions or get stuck as you work through this i
     <img src="images/act-1/table-contents.png" alt="table of contents" style="width:500px;">
 
 8.  **Inserting References**<br>
-    Download ([https://goo.gl/E9m6S7](https://goo.gl/E9m6S7){:target="_blank"}) and upload the BibTeX file to Overleaf. In the main.tex file, type the following between `\end{enumerate}` and `\end{document}`:
+    Download [this file](docs/Reference.bib){:target="_blank"} and upload the BibTeX file to Overleaf.
+
+    To upload it to Overleaf, first open the left-hand menu to display the file tree. It might be hidden, so click the little arrow on the right to open the file tree, as shown here:
+    <img src="images/act-1/open-file-tree.png" alt="table of contents" style="width:500px;">
+
+Then, click on the upload icon ![upload icon](images/act-1/upload.png) and select the fiel for upload.
+
+    In the main.tex file, type the following between `\end{enumerate}` and `\end{document}`:
     
     ```
     See \cite{DUMMY:1} for more proof details.
@@ -129,7 +136,7 @@ If you and your group have any questions or get stuck as you work through this i
     
     <img src="images/act-1/reference.png" alt="adding references" style="width:600px;">
     
-9.  **Download PDF and share the LaTeX file**<br>
+10.  **Download PDF and share the LaTeX file**<br>
     You can download the PDF file by clicking the "Download PDF" button at the top of your compiled LaTeX page. You can also invite others to edit your file by clicking the "SHARE" button at the top right of your screen.
 
 [NEXT STEP: Inserting Tables and Figures](act-2.html){: .btn .btn-blue }
