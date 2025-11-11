@@ -122,16 +122,17 @@ If you and your group have any questions or get stuck as you work through this i
     To upload it to Overleaf, first open the left-hand menu to display the file tree. It might be hidden, so click the little arrow on the right to open the file tree, as shown here:
     <img src="images/act-1/open-file-tree.png" alt="table of contents" style="width:500px;">
 
-Then, click on the upload icon ![upload icon](images/act-1/upload.png){width=25px} and select the file for upload.
+Then, click on the upload icon <img src="images/act-1/upload.png" alt="upload icon" style="width:25px;"> and select the file for upload.
 
     In the main.tex file, type the following between `\end{enumerate}` and `\end{document}`:
     
-    ```
-    See \cite{DUMMY:1} for more proof details.
-    \newpage
-    \bibliography{Reference}
-    \bibliographystyle{ieeetr}
-    ```
+```
+See \cite{DUMMY:1} for more proof details. % This creates a citation. It should match the name of the citation in the .bib file
+\newpage
+\bibliography{Reference} % This will add the reference list in the end. It should match the name of the .bib file
+\bibliographystyle{ieeetr} % This sets the style of the reference list
+```
+
     You can add more references in the "Reference.bib" file.
     
     <img src="images/act-1/reference.png" alt="adding references" style="width:600px;">
