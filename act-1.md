@@ -28,7 +28,9 @@ If you and your group have any questions or get stuck as you work through this i
     
     Note: You can always preview the file on the rightmost window. If you want to, enable "Auto Compile".  You can also use the keyboard shortcut **Ctrl+s** (**Cmd+s** on mac) to compile.
 
-4.  **Create a Title**<br>
+    As you go through these activities, make sure you pay attention to how the compiled file is changing according to the code you wrote in the code editor.
+
+5.  **Create a Title**<br>
 
     To create a title, you should add a few more pieces of information in the preamble.
     After `\documentclass` but before `\begin{document}`, add the following:
@@ -41,7 +43,7 @@ If you and your group have any questions or get stuck as you work through this i
 
     Note: You can also customize the data by typing `\date{Dec 2042}`.
     
-    This provides LaTex with the information needed to make a title, but it does not add the title to the document. To do that, you need to add a line after \begin{document}:
+    This provides LaTex with the information needed to make a title, but it does not add the title to the document. To do that, you need to add a line after `\begin{document}`:
 
     ```
     \begin{document}
