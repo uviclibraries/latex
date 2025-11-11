@@ -26,24 +26,33 @@ If you and your group have any questions or get stuck as you work through this i
     
     <img src="images/act-1/auto-compile.png" alt="auto compile" style="float:right;width:240px;">
     
-    For the rest of this activity, make sure that all the content of your document stays in between `\begin{document}` and `\end{document}`.
     Note: You can always preview the file on the rightmost window. If you want to, enable "Auto Compile".  You can also use the keyboard shortcut **Ctrl+s** (**Cmd+s** on mac) to compile.
 
 4.  **Create a Title**<br>
-    Replace “This is my first document” with the following:
+
+    To create a title, you should add a few more pieces of information in the preamble.
+    After \documentclass but before \begin{document}, add the following:
     
     ```
     \title{Introduction to LaTeX}
     \author{My Name}
     \date{\today}
+    ```
+
+    Note: You can also customize the data by typing `\date{Dec 2042}`.
+    
+    This provides LaTex with the information needed to make a title, but it does not add the title to the document. To do that, you need to add a line after \begin{document}:
+
+    ```
+    \begin{document}
     \maketitle
+    This is my first document.
+    \end{document}
     ```
     
-    You can also customize the data by typing `\date{Dec 2042}`
+        <img src="images/act-1/first-chunk.png" alt="create title" style="width:600px;">
     
-    <img src="images/act-1/first-chunk.png" alt="create title" style="width:600px;">
-    
-5.  **Add sections and subsections**<br>
+6.  **Add sections and subsections**<br>
     After `\maketitle` but before  `\end{document}` insert the following:
     
     ```
@@ -60,7 +69,7 @@ If you and your group have any questions or get stuck as you work through this i
     
     <img src="images/act-1/sections.png" alt="sections" style="width:600px;">
 
-6.  **Produce a list of items in the "Results" section after "Here are my results."**
+7.  **Produce a list of items in the "Results" section after "Here are my results."**
     
     ```
     \begin{enumerate}
@@ -76,7 +85,7 @@ If you and your group have any questions or get stuck as you work through this i
     
     <img src="images/act-1/results.png" alt="results" style="width:600px;">
 
-7.  **Create a nested list**<br>
+8.  **Create a nested list**<br>
     Notice the differences between the first list that used {itemize} and the second list that used nesting.
 
     ```
