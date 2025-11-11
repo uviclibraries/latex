@@ -18,30 +18,32 @@ If you and your group have any questions, or get stuck as you work through this 
     
 <details>
 <summary>Show/Hide Solution</summary>
+{% raw %}
+```latex
+\begin{tabular}{l | r | r |}
+Name & Height (cm) & Weight (kg)
+\\
+\hline
+Tom & 175 & 83 \\
+Mary & 165 & 50 \\
+Peter & 160 & 70 \\
+\end{tabular}
 
-    \begin{tabular}{l | r | r |}
-    Name & Height (cm) & Weight (kg)
-    \\
-    \hline
-    Tom & 175 & 83 \\
-    Mary & 165 & 50 \\
-    Peter & 160 & 70 \\
-    \end{tabular}
-    
-    Insert vertical space between tables
-    \vspace{2em}
-    
-    \begin{tabular}{l | c  c  c }
-     &  & Year &  \\
-    \cline{2-4}
-    City & 2016 & 2017 & 2018 \\
-    \hline
-    Victoria & A & B & C \\
-    Vancouver & D & E & F \\
-    Calgary & G & H & I \\
-    
-    \end{tabular}
-
+Insert vertical space between tables
+\vspace{2em}
+  
+\begin{tabular}{l | c  c  c }
+&  & Year &  \\
+\cline{2-4}
+City & 2016 & 2017 & 2018 \\
+\hline
+Victoria & A & B & C \\
+Vancouver & D & E & F \\
+Calgary & G & H & I \\
+ 
+\end{tabular}
+```
+{% endraw %}
 </details>
     
 3.  Immediately below the last `\end{tabular}` type another `\newpage`
