@@ -68,7 +68,7 @@ If you and your group have any questions, or get stuck as you work through this 
     
     **Note:** in the `\begin{tabular}{lcl}`, you should type the "**l**" (in short for left) rather than digital number 1 and ‘c’ (in short for center).  {lcl} is used for the column alignment in the table. There are three options for column alignment, namely l (left), c (center) and r (right). You can change this part as you like.
 
-8.  Ensure that the following codes are inserted into your main body, anywhere below the \begin{document} but above the \end{document}.
+8.  Ensure that the following codes are inserted into your main body, anywhere below the `\begin{document}` but above the `\end{document}`.
 
 - **Reference a table** <br>
     Type the following in your paragraph to refer the table: 
