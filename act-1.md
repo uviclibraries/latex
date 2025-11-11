@@ -133,9 +133,9 @@ See \cite{DUMMY:1} for more proof details. % This creates a citation. It should 
 \bibliographystyle{ieeetr} % This sets the style of the reference list
 ```
 
-    You can add more references in the "Reference.bib" file.
+You can add more references in the "Reference.bib" file.
     
-    <img src="images/act-1/reference.png" alt="adding references" style="width:600px;">
+<img src="images/act-1/reference.png" alt="adding references" style="width:600px;">
     
 10.  **Download PDF and share the LaTeX file**<br>
     You can download the PDF file by clicking the "Download PDF" button at the top of your compiled LaTeX page. You can also invite others to edit your file by clicking the "SHARE" button at the top right of your screen.
