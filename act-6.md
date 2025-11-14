@@ -45,7 +45,7 @@ Let’s create a new project for this activity in Overleaf.
 \end{document}
 ```
 
-    <img src="images/act-6/title-page.jpg" alt="title page slide" style="width:500px;">
+<img src="images/act-6/title-page.jpg" alt="title page slide" style="width:500px;">
 
 4. **Change the font**
     Copy and paste the below line between your `\maketitle` and `\end{document}` statements.
@@ -61,7 +61,7 @@ Let’s create a new project for this activity in Overleaf.
 ```
 <img src="images/act-6/3fonts.png" alt="compiled result with 3 fonts" style="width:600px;">
 
-    If you want to explore more fonts covered in the fontspec package, check [this](https://www.overleaf.com/learn/latex/Questions/Which_OTF_or_TTF_fonts_are_supported_via_fontspec%3F){:target="_blank"}.
+If you want to explore more fonts covered in the fontspec package, check [this](https://www.overleaf.com/learn/latex/Questions/Which_OTF_or_TTF_fonts_are_supported_via_fontspec%3F){:target="_blank"}.
 
 5. **Add a font package for Japanese, Chinese, or Korean**
     -   Add ```\usepackage{xeCJK}``` to the top of the file with the other ```\usepackage``` statements.
@@ -114,7 +114,7 @@ Let’s create a new project for this activity in Overleaf.
 
     <button onclick="toggle('sol')">**Show/Hide Solution**</button>
     <div id="sol" style="display: none">
-    In the keyboard: `SENC'OT-EN, MA'LEXEL-, SXIMEL-EL-, W_JOL-EL-P`. 
+    In the keyboard: SENC'OT-EN, MA'LEXEL-, SXIMEL-EL-, W_JOL-EL-P. 
 
     In Overleaf:
     <img src="images/act-6/sencotentable.png" alt="table in overleaf" style="width:600px;">
@@ -137,6 +137,7 @@ Let’s create a new project for this activity in Overleaf.
   BoldItalicFont=*sb10
 ]
 ```
+    - Remembter to delete the old text taht set Asap as the sans serif font.
     - Use [pages 14 and 36-56 of the Tipa manual](https://muug.ca/mirror/ctan/fonts/tipa/tipa/doc/tipaman.pdf){:target="_blank"}  to type up some phonetic symbols.
     - Try to write out the IPA pronunciation for Lekwungen: <br>
     <img src="images/act-6/lekwungen.png" alt="asap font result" style="width:100px;">
