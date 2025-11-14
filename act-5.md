@@ -37,25 +37,25 @@ This will not create a title slide just yet. For that, you need to create the do
 % remember to close the frame and the document
 \end{frame}
 \end{document}
+```
 
-    <img src="images/act-5/title-page.png" alt="title page slide" style="width:720px;">
+<img src="images/act-5/title-page.png" alt="title page slide" style="width:720px;">
 
 3.  **Create your overview page and start your work:**
 
 Add a new slide after the title page that will contain the table of contents. Remember to add the piece of code below before the `\end{document}` 
 
-    ```
-    \begin{frame}
-    \frametitle{Overview}   % Table of contents slide, comment this block out to remove it
-    \tableofcontents            
-    \end{frame}
+```
+\begin{frame}
+\frametitle{Overview}   % Table of contents slide, comment this block out to remove it
+\tableofcontents            
+\end{frame}
+% You can create your structure for the Table of Contents by using     section and subsection
+\section{First section}
+\subsection{Subsection example}
+```
 
-    % You can create your structure for the Table of Contents by using     section and subsection
-    \section{First section}
-    \subsection{Subsection example}
-    ```
-
-    <img src="images/act-5/final.png" alt="subsection example" style="width:720px;">
+<img src="images/act-5/final.png" alt="subsection example" style="width:720px;">
 
 4.  **Change the theme for slides:**<br>
     Find the code below `\mode<presentation>{}` (In the very beginning).  There are other themes like `\usetheme{CambridgeUS}`. We will continue using the Madrid team for this exercise, but you can try out the other themes. See a list [here](https://latex-beamer.com/tutorials/beamer-themes/){:target="_blank"}.
