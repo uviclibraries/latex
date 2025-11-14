@@ -137,7 +137,7 @@ If you want to explore more fonts covered in the fontspec package, check [this](
   BoldItalicFont=*sb10
 ]
 ```
-    - Remembter to delete the old text taht set Asap as the sans serif font.
+    - Remember to delete the old text that set Asap as the sans serif font.
     - Use [pages 14 and 36-56 of the Tipa manual](https://muug.ca/mirror/ctan/fonts/tipa/tipa/doc/tipaman.pdf){:target="_blank"}  to type up some phonetic symbols.
     - Try to write out the IPA pronunciation for Lekwungen: <br>
     <img src="images/act-6/lekwungen.png" alt="asap font result" style="width:100px;">
