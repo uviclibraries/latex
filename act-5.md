@@ -28,7 +28,7 @@ Beamer is a LaTeX class for making presentation slides. Let’s create a new pro
     \date{\today}  % it can be customized
     ```
 
-This will not create a title slide just yet. For that, you need to create the document with `\begin{document}`, and then start a new slide with \being{frame}`. You can then tell LaTex to add a title page with `\titlepage`.
+This will not create a title slide just yet. For that, you need to create the document with `\begin{document}`, and then start a new slide with `\begin{frame}`. You can then tell LaTex to add a title page with `\titlepage`.
 
 ```
 \begin{document}
