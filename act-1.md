@@ -30,7 +30,7 @@ If you and your group have any questions or get stuck as you work through this i
 
     As you go through these activities, make sure you pay attention to how the compiled file is changing according to the code you wrote in the code editor.
 
-5.  **Create a Title**<br>
+4.  **Create a Title**<br>
 
     To create a title, you should add a few more pieces of information in the preamble.
     After `\documentclass` but before `\begin{document}`, add the following:
@@ -54,7 +54,7 @@ If you and your group have any questions or get stuck as you work through this i
     
     <img src="images/act-1/first-chunk.png" alt="create title" style="width:600px;">
     
-6.  **Add sections and subsections**<br>
+5.  **Add sections and subsections**<br>
     After `\maketitle` but before  `\end{document}` insert the following:
     
     ```
@@ -71,7 +71,7 @@ If you and your group have any questions or get stuck as you work through this i
     
     <img src="images/act-1/sections.png" alt="sections" style="width:600px;">
 
-7.  **Produce a list of items in the "Results" section after "Here are my results."**
+6.  **Produce a list of items in the "Results" section after "Here are my results."**
     
     ```
     \begin{enumerate}
@@ -87,7 +87,7 @@ If you and your group have any questions or get stuck as you work through this i
     
     <img src="images/act-1/results.png" alt="results" style="width:600px;">
 
-8.  **Create a nested list**<br>
+7.  **Create a nested list**<br>
     Notice the differences between the first list that used `{itemize}` and the second list that used nesting.
 
     ```
@@ -104,7 +104,7 @@ If you and your group have any questions or get stuck as you work through this i
     
     <img src="images/act-1/nested-list.png" alt="nested lists" style="width:600px;">
 
-7.  **Create a table of contents**<br>
+8.  **Create a table of contents**<br>
     Insert the following directly after `\maketitle`. This sets roman numbering for the first page, where you add a table of contents. Then the `\newpage` command creates a new page, where page numbering is set using arabic numbers.
     
     ```
@@ -116,32 +116,32 @@ If you and your group have any questions or get stuck as you work through this i
     
     <img src="images/act-1/table-contents.png" alt="table of contents" style="width:500px;">
 
-8.  **Inserting References**<br>
+9.  **Inserting References**<br>
     Download [this file](docs/Reference.bib){:target="_blank"} and upload the BibTeX file to Overleaf.
 
     To upload it to Overleaf, first open the left-hand menu to display the file tree. It might be hidden, so click the little arrow on the right to open the file tree, as shown here:
+    
     <img src="images/act-1/open-file-tree.png" alt="table of contents" style="width:500px;">
-
-Then, click on the upload icon <img src="images/act-1/upload.png" alt="upload icon" style="width:25px;"> and select the file for upload.
-
-In the main.tex file, type the following between `\end{enumerate}` and `\end{document}`:
     
-```
-See \cite{DUMMY:1} for more proof details. % This creates a citation. It should match the name of the citation in the .bib file
-\newpage
-\bibliography{Reference} % This will add the reference list in the end. It should match the name of the .bib file
-\bibliographystyle{ieeetr} % This sets the style of the reference list
-```
+    Then, click on the upload icon <img src="images/act-1/upload.png" alt="upload icon" style="width:25px;"> and select the file for upload.
 
-You can add more references in the "Reference.bib" file.
-    
-<img src="images/act-1/reference.png" alt="adding references" style="width:600px;">
+    In the main.tex file, type the following between `\end{enumerate}` and `\end{document}`:
+    ```
+    See \cite{DUMMY:1} for more proof details. % This creates a citation. It should match the name of the citation in the .bib file
+    \newpage
+    \bibliography{Reference} % This will add the reference list in the end. It should match the name of the .bib file
+    \bibliographystyle{ieeetr} % This sets the style of the reference list
+    ```
 
-9. **Remember to comment your document**
+    You can add more references in the "Reference.bib" file.
 
-As you can see in the previous code on how to add references, you can use the `%` sign to create comments in your document. LaTeX will not read or run anything after a `%` sign in a line, so you can use that to comment your document and make sure you know what each command means.
-    
-10.  **Download PDF and share the LaTeX file**<br>
+    <img src="images/act-1/reference.png" alt="adding references" style="width:600px;">
+
+10. **Remember to comment your document**
+   
+    As you can see in the previous code on how to add references, you can use the `%` sign to create comments in your document. LaTeX will not read or run anything after a `%` sign in a line, so you can use that to comment your document and make sure you know what each command means.
+
+11. **Download PDF and share the LaTeX file**<br>
     You can download the PDF file by clicking the "Download PDF" button at the top of your compiled LaTeX page. You can also invite others to edit your file by clicking the "SHARE" button at the top right of your screen.
 
 [NEXT STEP: Inserting Tables and Figures](act-2.html){: .btn .btn-blue }
