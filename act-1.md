@@ -136,6 +136,10 @@ See \cite{DUMMY:1} for more proof details. % This creates a citation. It should 
 You can add more references in the "Reference.bib" file.
     
 <img src="images/act-1/reference.png" alt="adding references" style="width:600px;">
+
+9. **Remember to comment your document**
+
+As you can see in the previous code on how to add references, you can use the `%` sign to create comments in your document. LaTeX will not read or run anything after a `%` sign in a line, so you can use that to comment your document and make sure you know what each command means.
     
 10.  **Download PDF and share the LaTeX file**<br>
     You can download the PDF file by clicking the "Download PDF" button at the top of your compiled LaTeX page. You can also invite others to edit your file by clicking the "SHARE" button at the top right of your screen.
